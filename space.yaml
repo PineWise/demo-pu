@@ -2,10 +2,10 @@ apiVersion: gigaspaces.com/v1
 kind: ProcessingUnit
 metadata:
   generation: 2
-  name: space10
+  name: space11
   namespace: default
   resourceVersion: "4380193"
-  selfLink: /apis/gigaspaces.com/v1/namespaces/default/pus/space10
+  selfLink: /apis/gigaspaces.com/v1/namespaces/default/pus/space11
   uid: 4e69e95b-1963-4933-96fe-3feff67aa208
 spec:
   antiAffinity: false
