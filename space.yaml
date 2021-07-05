@@ -1,0 +1,41 @@
+apiVersion: gigaspaces.com/v1
+kind: ProcessingUnit
+metadata:
+  generation: 2
+  name: space10
+  namespace: default
+  resourceVersion: "4380193"
+  selfLink: /apis/gigaspaces.com/v1/namespaces/default/pus/space10
+  uid: 4e69e95b-1963-4933-96fe-3feff67aa208
+spec:
+  antiAffinity: false
+  ha: false 
+  image:
+    pullPolicy: null
+    repository: gcr.io/pinewise/space
+    tag: "0.120"
+  instances: null
+  javaHeap: limit-150Mi
+  license: tryme
+  livenessProbe: null
+  manager:
+    discoveryTimeoutSeconds: 60
+    name: giga
+    ports: null
+  memoryXtendVolume: null
+  multiCast: false
+  nodeSelector: null
+  partitions: 1
+  properties: =;image.tag=0.120;image.repository=gcr.io/pinewise/space
+  env:
+    - name: TESTING
+      value: "Blah"
+  readinessProbe: null
+  resourceUrl: /opt/gigaspaces/space.jar
+  resources:
+  - id: null
+    limits:
+      cpu: null
+      memory: 550Mi
+    requests: null
+  service: null
