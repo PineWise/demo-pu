@@ -10,7 +10,7 @@ spec:
   image:
     pullPolicy: null
     repository: gcr.io/pinewise/space
-    tag: "0.120"
+    tag: "0.121"
   instances: null
   javaHeap: limit-150Mi
   license: tryme
@@ -23,7 +23,7 @@ spec:
   multiCast: false
   nodeSelector: null
   partitions: 1
-  properties: =;image.tag=0.120;image.repository=gcr.io/pinewise/space
+  properties: =;image.tag=0.121;image.repository=gcr.io/pinewise/space
   env:
     - name: TESTING
       value: "Blah"
