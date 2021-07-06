@@ -10,7 +10,7 @@ spec:
   image:
     pullPolicy: null
     repository: gcr.io/pinewise/space
-    tag: "0.122"
+    tag: "0.123"
   instances: null
   javaHeap: limit-150Mi
   license: tryme
