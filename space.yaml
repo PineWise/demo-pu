@@ -26,7 +26,7 @@ spec:
   properties: =;image.tag=0.121;image.repository=gcr.io/pinewise/space
   env:
     - name: TESTING
-      value: "Blah"
+      value: "Blah2"
   readinessProbe: null
   resourceUrl: /opt/gigaspaces/space.jar
   resources:
